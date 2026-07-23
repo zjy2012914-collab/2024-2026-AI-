@@ -88,26 +88,4 @@ AI-Chip-Industry-Research-2024-2026/
 
 ---
 
-## 项目运行与重生成脚本
 
-如果您希望重新生成数据库、矢量图表、Word 报告或 PDF 文件，可以在沙箱终端中直接运行：
-```bash
-# 1. 重新生成 CSV 数据库文件
-python3 generate_db.py
-
-# 2. 重新生成 bib 和冲突 md 引用源
-python3 generate_sources.py
-
-# 3. 重新生成 8 张漂亮的 SVG 矢量图表
-python3 generate_charts.py
-
-# 4. 重新写入长篇 Markdown 报告
-python3 generate_report.py
-
-# 5. 重新编译生成精美排版的 Word 文档
-python3 generate_docx.py
-
-# 6. 重新编译生成 Noto Sans SC 矢量的 PDF 交付件和附录
-python3 generate_pdf.py
-```
-所有生成代码完全自包含且不依赖外部闭源依赖，安全、高效、精准。
