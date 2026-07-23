@@ -1,0 +1,17 @@
+event_id,date,company,event_type,description
+EV01,2021-08-19,Tesla,Launch,Tesla announces Dojo D1 chip at AI Day v1
+EV02,2022-03-22,NVIDIA,Launch,NVIDIA announces Hopper architecture & H100 GPU
+EV03,2022-08-10,Biren,Launch,Birentech launches BR100 GPU with 77B transistors
+EV04,2022-10-12,US Govt,Regulation,"US imposes strict export controls on advanced compute, banning BR100 manufacturing at TSMC"
+EV05,2023-05-18,Meta,Launch,Meta announces MTIA v1 inference accelerator
+EV06,2023-11-15,Microsoft,Launch,Microsoft announces Azure Maia 100 chip and Cobalt CPU
+EV07,2023-12-06,AMD,Launch,AMD launches Instinct MI300X and MI300A chips
+EV08,2024-03-18,NVIDIA,Launch,NVIDIA announces Blackwell B200 and GB200 Superchips at GTC 2024
+EV09,2024-03-13,Cerebras,Launch,Cerebras launches Wafer-Scale Engine 3 (WSE-3) and CS-3 system
+EV10,2024-04-09,Intel,Launch,Intel launches Gaudi 3 AI accelerator at Vision 2024
+EV11,2024-10-10,AMD,Launch,AMD launches Instinct MI325X with 256GB HBM3e
+EV12,2024-11-01,Huawei,Deployment,Ascend 910C starts beta shipping to Chinese tier-1 cloud providers
+EV13,2025-06-12,AMD,Launch,AMD announces CDNA4-based Instinct MI350X/MI355X on 3nm
+EV14,2025-12-24,NVIDIA / Groq,Partnership,"NVIDIA licenses Groq's LPU architecture for $20 billion, Groq founder joins NVIDIA"
+EV15,2026-01-26,Microsoft,Launch,Microsoft introduces Maia 200 on TSMC 3nm with 216GB HBM3e
+EV16,2026-04-15,Tesla,Tape-out,Tesla's fifth-generation AI5 chip completes tape-out across TSMC and Samsung

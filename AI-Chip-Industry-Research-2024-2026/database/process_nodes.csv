@@ -1,0 +1,9 @@
+node_name,foundry,density_m_trans_mm2,commercial_year,major_challenges
+TSMC 7nm,TSMC,91.2,2018,"EUV lithography integration, multi-patterning complexity"
+TSMC 5nm,TSMC,173.0,2020,"High cost of EUV masks, gate-all-around (GAA) transition research"
+TSMC 4N/4NP,TSMC,190.0,2022,"Custom node optimization, power-performance-area (PPA) scaling"
+TSMC N3E/N3P,TSMC,220.0,2024,"FinFET extension limits, extreme high wafer costs ($20K+)"
+SMIC 7nm N+2,SMIC,95.0,2022,"EUV export ban forced multi-patterning DUV, low yield (<40%), high cost"
+SMIC 5nm (est),SMIC,150.0,2025/2026,"DUV quadruple patterning, extreme overlay errors, commercially unviable without state subsidy"
+Samsung 4nm LPP,Samsung,145.0,2022,"Early yield issues, thermal throttling under sustained load"
+Samsung 2nm SF2,Samsung,250.0,2025/2026,"GAA (Multi-Bridge Channel FET) yield ramp, commercial mass production risks"

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%" style="background-color: #0f172a; font-family: system-ui, sans-serif;">
+  <text x="400" y="40" text-anchor="middle" fill="#f8fafc" font-size="22" font-weight="bold">AI 芯片四层生态系统架构 (AI Chip Ecosystem Stack)</text>
+  <text x="400" y="65" text-anchor="middle" fill="#94a3b8" font-size="14">从底层硬件芯片到上层应用框架的纵向协同</text>
+
+  <!-- Level 4: Applications -->
+  <g transform="translate(50, 100)">
+    <rect x="0" y="0" width="700" height="60" fill="#1e3a8a" stroke="#3b82f6" stroke-width="1.5" rx="4" />
+    <text x="350" y="25" fill="#f1f5f9" font-size="14" font-weight="bold" text-anchor="middle">第四层：大模型推理与模型应用服务层 (Applications &amp; Serving)</text>
+    <text x="350" y="45" fill="#93c5fd" font-size="12" text-anchor="middle">vLLM, TensorRT-LLM, DeepSpeed, Hugging Face TGI, Llama.cpp, MaxText</text>
+  </g>
+
+  <!-- Arrow -->
+  <line x1="400" y1="160" x2="400" y2="190" stroke="#3b82f6" stroke-width="2" />
+  <polygon points="397,190 400,196 403,190" fill="#3b82f6" />
+
+  <!-- Level 3: Frameworks -->
+  <g transform="translate(50, 195)">
+    <rect x="0" y="0" width="700" height="60" fill="#064e3b" stroke="#10b981" stroke-width="1.5" rx="4" />
+    <text x="350" y="25" fill="#f1f5f9" font-size="14" font-weight="bold" text-anchor="middle">第三层：主流开发与算力调用底层框架 (Frameworks &amp; Runtimes)</text>
+    <text x="350" y="45" fill="#a7f3d0" font-size="12" text-anchor="middle">PyTorch, Google JAX, TensorFlow, 华为 MindSpore, 百度 PaddlePaddle</text>
+  </g>
+
+  <!-- Arrow -->
+  <line x1="400" y1="255" x2="400" y2="285" stroke="#10b981" stroke-width="2" />
+  <polygon points="397,285 400,291 403,285" fill="#10b981" />
+
+  <!-- Level 2: Compiler & SDK -->
+  <g transform="translate(50, 290)">
+    <rect x="0" y="0" width="700" height="70" fill="#7c2d12" stroke="#f97316" stroke-width="1.5" rx="4" />
+    <text x="350" y="23" fill="#f1f5f9" font-size="14" font-weight="bold" text-anchor="middle">第二层：核心硬件编译器与加速工具链 (Compilers &amp; Toolkits)</text>
+    <text x="350" y="43" fill="#ffedd5" font-size="12" text-anchor="middle">NVIDIA CUDA/TensorRT | AMD ROCm/HIP | Intel OneAPI | Google XLA/PJRT</text>
+    <text x="350" y="58" fill="#ffedd5" font-size="11" text-anchor="middle">AWS Neuron SDK | OpenAI Triton | 华为 CANN | 寒武纪 NeuWare | OpenAI Triton</text>
+  </g>
+
+  <!-- Arrow -->
+  <line x1="400" y1="360" x2="400" y2="390" stroke="#f97316" stroke-width="2" />
+  <polygon points="397,390 400,396 403,390" fill="#f97316" />
+
+  <!-- Level 1: Hardware -->
+  <g transform="translate(50, 395)">
+    <rect x="0" y="0" width="700" height="70" fill="#581c87" stroke="#a855f7" stroke-width="1.5" rx="4" />
+    <text x="350" y="23" fill="#f1f5f9" font-size="14" font-weight="bold" text-anchor="middle">第一层：AI 芯片物理层级与异构算力基础 (Heterogeneous Hardware)</text>
+    <text x="350" y="43" fill="#f3e8ff" font-size="12" text-anchor="middle">通用 GPU：NVIDIA Hopper/Blackwell, AMD CDNA3/CDNA4, 壁仞 BR100, 沐曦 MXC500</text>
+    <text x="350" y="59" fill="#f3e8ff" font-size="11" text-anchor="middle">专用 ASIC：Intel Gaudi 3, Google TPU, AWS Trainium, 微软 Maia, 华为昇腾, Cerebras, Groq LPU</text>
+  </g>
+</svg>

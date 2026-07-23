@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%" style="background-color: #0f172a; font-family: system-ui, sans-serif;">
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" fill="#f8fafc" font-size="22" font-weight="bold">主流 AI 芯片 FP16/BF16 稠密算力对比 (TFLOPS)</text>
+  <text x="400" y="65" text-anchor="middle" fill="#94a3b8" font-size="14">数据源：公开规格白皮书与行业交叉验证（数值越高越好）</text>
+
+  <!-- Grid and axes -->
+  <g stroke="#334155" stroke-width="1" stroke-dasharray="5 5">
+    <line x1="180" y1="100" x2="720" y2="100" />
+    <line x1="180" y1="170" x2="720" y2="170" />
+    <line x1="180" y1="240" x2="720" y2="240" />
+    <line x1="180" y1="310" x2="720" y2="310" />
+    <line x1="180" y1="380" x2="720" y2="380" />
+  </g>
+  
+  <!-- Y Axis Label -->
+  <line x1="180" y1="80" x2="180" y2="420" stroke="#475569" stroke-width="2" />
+  <line x1="180" y1="420" x2="720" y2="420" stroke="#475569" stroke-width="2" />
+  
+  <!-- X Axis Ticks & Scale (0 to 3000 TFLOPS) -->
+  <text x="180" y="445" fill="#94a3b8" font-size="12" text-anchor="middle">0</text>
+  <text x="270" y="445" fill="#94a3b8" font-size="12" text-anchor="middle">500</text>
+  <text x="360" y="445" fill="#94a3b8" font-size="12" text-anchor="middle">1000</text>
+  <text x="450" y="445" fill="#94a3b8" font-size="12" text-anchor="middle">1500</text>
+  <text x="540" y="445" fill="#94a3b8" font-size="12" text-anchor="middle">2000</text>
+  <text x="630" y="445" fill="#94a3b8" font-size="12" text-anchor="middle">2500</text>
+  <text x="720" y="445" fill="#94a3b8" font-size="12" text-anchor="middle">3000</text>
+  
+  <!-- Bars -->
+  <!-- Formula: width = (val / 3000) * 540 -->
+  <!-- Row 1: NVIDIA B200 (2250 TFLOPS) -->
+  <g>
+    <text x="165" y="115" fill="#f1f5f9" font-size="14" font-weight="bold" text-anchor="end">NVIDIA B200</text>
+    <rect x="180" y="95" width="405" height="30" rx="4" fill="url(#grad-green)" />
+    <text x="595" y="115" fill="#34d399" font-size="14" font-weight="bold">2250 TFLOPS</text>
+  </g>
+  
+  <!-- Row 2: Intel Gaudi 3 (1835 TFLOPS) -->
+  <g>
+    <text x="165" y="175" fill="#f1f5f9" font-size="14" text-anchor="end">Intel Gaudi 3</text>
+    <rect x="180" y="155" width="330" height="30" rx="4" fill="url(#grad-blue)" />
+    <text x="520" y="175" fill="#60a5fa" font-size="14" font-weight="bold">1835 TFLOPS</text>
+  </g>
+  
+  <!-- Row 3: AMD MI300X / MI325X (1307 TFLOPS) -->
+  <g>
+    <text x="165" y="235" fill="#f1f5f9" font-size="14" text-anchor="end">AMD MI300X/325X</text>
+    <rect x="180" y="215" width="235" height="30" rx="4" fill="url(#grad-orange)" />
+    <text x="425" y="235" fill="#f97316" font-size="14" font-weight="bold">1307 TFLOPS</text>
+  </g>
+  
+  <!-- Row 4: NVIDIA H100 / H200 (989 TFLOPS) -->
+  <g>
+    <text x="165" y="295" fill="#f1f5f9" font-size="14" text-anchor="end">NVIDIA H100/H200</text>
+    <rect x="180" y="275" width="178" height="30" rx="4" fill="url(#grad-green-pale)" />
+    <text x="368" y="295" fill="#a7f3d0" font-size="14" font-weight="bold">989 TFLOPS</text>
+  </g>
+  
+  <!-- Row 5: Google TPU v6e (Trillium) (918 TFLOPS) -->
+  <g>
+    <text x="165" y="355" fill="#f1f5f9" font-size="14" text-anchor="end">Google TPU v6e</text>
+    <rect x="180" y="335" width="165" height="30" rx="4" fill="url(#grad-blue-pale)" />
+    <text x="355" y="355" fill="#93c5fd" font-size="14" font-weight="bold">918 TFLOPS</text>
+  </g>
+  
+  <!-- Row 6: Huawei Ascend 910C (800 TFLOPS) -->
+  <g>
+    <text x="165" y="415" fill="#f1f5f9" font-size="14" text-anchor="end">Huawei Ascend 910C</text>
+    <rect x="180" y="395" width="144" height="30" rx="4" fill="url(#grad-red)" />
+    <text x="334" y="415" fill="#f87171" font-size="14" font-weight="bold">800 TFLOPS</text>
+  </g>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="grad-green" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+    <linearGradient id="grad-blue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#60a5fa" />
+    </linearGradient>
+    <linearGradient id="grad-orange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ea580c" />
+      <stop offset="100%" stop-color="#fb923c" />
+    </linearGradient>
+    <linearGradient id="grad-green-pale" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#047857" />
+      <stop offset="100%" stop-color="#a7f3d0" />
+    </linearGradient>
+    <linearGradient id="grad-blue-pale" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1d4ed8" />
+      <stop offset="100%" stop-color="#93c5fd" />
+    </linearGradient>
+    <linearGradient id="grad-red" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b91c1c" />
+      <stop offset="100%" stop-color="#f87171" />
+    </linearGradient>
+  </defs>
+</svg>

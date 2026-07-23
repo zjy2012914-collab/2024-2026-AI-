@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 450" width="100%" height="100%" style="background-color: #0f172a; font-family: system-ui, sans-serif;">
+  <text x="500" y="40" text-anchor="middle" fill="#f8fafc" font-size="22" font-weight="bold">2024-2026年全球主要 AI 芯片上市与重要事件时间线</text>
+  <text x="500" y="65" text-anchor="middle" fill="#94a3b8" font-size="14">标有地缘政治及技术迭代的关键历史节点</text>
+
+  <!-- Time Axis line -->
+  <line x1="50" y1="230" x2="950" y2="230" stroke="#475569" stroke-width="4" />
+  <!-- Arrow -->
+  <polygon points="950,225 965,230 950,235" fill="#475569" />
+
+  <!-- Time Labels -->
+  <text x="50" y="260" fill="#94a3b8" font-size="12" text-anchor="middle">2021</text>
+  <text x="220" y="260" fill="#94a3b8" font-size="12" text-anchor="middle">2022</text>
+  <text x="390" y="260" fill="#94a3b8" font-size="12" text-anchor="middle">2023</text>
+  <text x="560" y="260" fill="#94a3b8" font-size="12" text-anchor="middle">2024</text>
+  <text x="730" y="260" fill="#94a3b8" font-size="12" text-anchor="middle">2025</text>
+  <text x="900" y="260" fill="#94a3b8" font-size="12" text-anchor="middle">2026</text>
+
+  <!-- Events -->
+  <!-- 2021-08: Tesla Dojo D1 (x=160, y=140) -->
+  <g transform="translate(160, 230)">
+    <circle cx="0" cy="0" r="6" fill="#ec4899" />
+    <line x1="0" y1="0" x2="0" y2="-80" stroke="#f472b6" stroke-width="1.5" stroke-dasharray="3 3" />
+    <rect x="-70" y="-135" width="140" height="50" fill="#1e293b" stroke="#f472b6" stroke-width="1" rx="4" />
+    <text x="0" y="-118" fill="#f1f5f9" font-size="11" font-weight="bold" text-anchor="middle">Tesla Dojo D1</text>
+    <text x="0" y="-102" fill="#94a3b8" font-size="10" text-anchor="middle">自研超算架构发布</text>
+    <text x="0" y="-235" fill="#3b82f6" font-size="10" text-anchor="middle"></text>
+  </g>
+
+  <!-- 2022-03: NVIDIA Hopper H100 (x=250, y=320) -->
+  <g transform="translate(250, 230)">
+    <circle cx="0" cy="0" r="6" fill="#10b981" />
+    <line x1="0" y1="0" x2="0" y2="80" stroke="#34d399" stroke-width="1.5" stroke-dasharray="3 3" />
+    <rect x="-70" y="85" width="140" height="50" fill="#1e293b" stroke="#34d399" stroke-width="1" rx="4" />
+    <text x="0" y="103" fill="#f1f5f9" font-size="11" font-weight="bold" text-anchor="middle">NVIDIA H100 发布</text>
+    <text x="0" y="119" fill="#94a3b8" font-size="10" text-anchor="middle">奠定生成式AI黄金基石</text>
+  </g>
+
+  <!-- 2022-10: US sanctions (x=350, y=140) -->
+  <g transform="translate(350, 230)">
+    <circle cx="0" cy="0" r="6" fill="#ef4444" />
+    <line x1="0" y1="0" x2="0" y2="-90" stroke="#f87171" stroke-width="1.5" />
+    <rect x="-85" y="-150" width="170" height="55" fill="#7f1d1d" stroke="#f87171" stroke-width="1" rx="4" />
+    <text x="0" y="-132" fill="#fee2e2" font-size="11" font-weight="bold" text-anchor="middle">美国1012出口管制</text>
+    <text x="0" y="-116" fill="#fca5a5" font-size="9" text-anchor="middle">切断先进代工,壁仞br100受限</text>
+    <text x="0" y="-103" fill="#fee2e2" font-size="9" text-anchor="middle">国产替代进程全面加速</text>
+  </g>
+
+  <!-- 2023-12: AMD MI300X (x=490, y=320) -->
+  <g transform="translate(490, 230)">
+    <circle cx="0" cy="0" r="6" fill="#f97316" />
+    <line x1="0" y1="0" x2="0" y2="80" stroke="#fb923c" stroke-width="1.5" stroke-dasharray="3 3" />
+    <rect x="-70" y="85" width="140" height="50" fill="#1e293b" stroke="#fb923c" stroke-width="1" rx="4" />
+    <text x="0" y="103" fill="#f1f5f9" font-size="11" font-weight="bold" text-anchor="middle">AMD MI300X 发布</text>
+    <text x="0" y="119" fill="#94a3b8" font-size="10" text-anchor="middle">首款大批量出货的GPU竞品</text>
+  </g>
+
+  <!-- 2024-03: NVIDIA Blackwell & Cerebras CS-3 (x=600, y=140) -->
+  <g transform="translate(600, 230)">
+    <circle cx="0" cy="0" r="6" fill="#10b981" />
+    <line x1="0" y1="0" x2="0" y2="-80" stroke="#34d399" stroke-width="1.5" stroke-dasharray="3 3" />
+    <rect x="-80" y="-135" width="160" height="50" fill="#1e293b" stroke="#34d399" stroke-width="1" rx="4" />
+    <text x="0" y="-118" fill="#f1f5f9" font-size="11" font-weight="bold" text-anchor="middle">Blackwell B200 亮相</text>
+    <text x="0" y="-102" fill="#94a3b8" font-size="9" text-anchor="middle">WSE-3同步流片,拉开大模型战幕</text>
+  </g>
+
+  <!-- 2025-06: AMD Instinct MI350X & 1224 Groq Deal (x=780, y=320) -->
+  <g transform="translate(780, 230)">
+    <circle cx="0" cy="0" r="6" fill="#f59e0b" />
+    <line x1="0" y1="0" x2="0" y2="80" stroke="#fcd34d" stroke-width="1.5" stroke-dasharray="3 3" />
+    <rect x="-85" y="85" width="170" height="55" fill="#1e293b" stroke="#fcd34d" stroke-width="1" rx="4" />
+    <text x="0" y="103" fill="#f1f5f9" font-size="11" font-weight="bold" text-anchor="middle">Nvidia-Groq $20B 授权</text>
+    <text x="0" y="117" fill="#94a3b8" font-size="9" text-anchor="middle">LPU架构变局,AMD发布MI350X</text>
+    <text x="0" y="129" fill="#94a3b8" font-size="9" text-anchor="middle">地缘竞争中芯国际承载更多重构</text>
+  </g>
+
+  <!-- 2026-04: Tesla AI5流片 & MSFT Maia 200 (x=900, y=140) -->
+  <g transform="translate(900, 230)">
+    <circle cx="0" cy="0" r="6" fill="#a855f7" />
+    <line x1="0" y1="0" x2="0" y2="-80" stroke="#c084fc" stroke-width="1.5" stroke-dasharray="3 3" />
+    <rect x="-80" y="-135" width="160" height="50" fill="#1e293b" stroke="#c084fc" stroke-width="1" rx="4" />
+    <text x="0" y="-118" fill="#f1f5f9" font-size="11" font-weight="bold" text-anchor="middle">Maia 200 / AI5 时代</text>
+    <text x="0" y="-102" fill="#94a3b8" font-size="9" text-anchor="middle">TSMC 3nm普及, 自研ASIC大爆发</text>
+  </g>
+</svg>

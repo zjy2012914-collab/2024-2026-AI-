@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%" style="background-color: #0f172a; font-family: system-ui, sans-serif;">
+  <text x="400" y="40" text-anchor="middle" fill="#f8fafc" font-size="22" font-weight="bold">AI 芯片功耗对比 (TDP in Watts)</text>
+  <text x="400" y="65" text-anchor="middle" fill="#94a3b8" font-size="14">数据源：厂商公开技术指标（反映供电及冷却系统配套需求）</text>
+
+  <g stroke="#334155" stroke-width="1" stroke-dasharray="5 5">
+    <line x1="80" y1="100" x2="720" y2="100" />
+    <line x1="80" y1="175" x2="720" y2="175" />
+    <line x1="80" y1="250" x2="720" y2="250" />
+    <line x1="80" y1="325" x2="720" y2="325" />
+  </g>
+
+  <!-- Y-Axis -->
+  <line x1="80" y1="80" x2="80" y2="375" stroke="#475569" stroke-width="2" />
+  <text x="70" y="105" fill="#94a3b8" font-size="12" text-anchor="end">1500W</text>
+  <text x="70" y="175" fill="#94a3b8" font-size="12" text-anchor="end">1000W</text>
+  <text x="70" y="250" fill="#94a3b8" font-size="12" text-anchor="end">500W</text>
+  <text x="70" y="325" fill="#94a3b8" font-size="12" text-anchor="end">250W</text>
+  <text x="70" y="375" fill="#94a3b8" font-size="12" text-anchor="end">0W</text>
+
+  <!-- X-Axis -->
+  <line x1="80" y1="375" x2="720" y2="375" stroke="#475569" stroke-width="2" />
+
+  <!-- Data Bars -->
+  <!-- Formula Height: y = 375 - (val / 1500) * 275 -->
+
+  <!-- AMD MI355X (1400W) -->
+  <g transform="translate(100, 0)">
+    <rect x="0" y="118" width="35" height="257" fill="#ef4444" rx="3" />
+    <text x="17" y="110" fill="#f87171" font-size="11" text-anchor="middle" font-weight="bold">1400W</text>
+    <text x="17" y="395" fill="#f1f5f9" font-size="11" text-anchor="middle" transform="rotate(25, 17, 395)">MI355X</text>
+  </g>
+
+  <!-- NVIDIA GB200 (1200W) -->
+  <g transform="translate(160, 0)">
+    <rect x="0" y="155" width="35" height="220" fill="#10b981" rx="3" />
+    <text x="17" y="147" fill="#34d399" font-size="11" text-anchor="middle" font-weight="bold">1200W</text>
+    <text x="17" y="395" fill="#f1f5f9" font-size="11" text-anchor="middle" transform="rotate(25, 17, 395)">GB200</text>
+  </g>
+
+  <!-- AMD MI350X (1000W) -->
+  <g transform="translate(220, 0)">
+    <rect x="0" y="191" width="35" height="184" fill="#f43f5e" rx="3" />
+    <text x="17" y="183" fill="#fb7185" font-size="11" text-anchor="middle" font-weight="bold">1000W</text>
+    <text x="17" y="395" fill="#f1f5f9" font-size="11" text-anchor="middle" transform="rotate(25, 17, 395)">MI350X</text>
+  </g>
+
+  <!-- NVIDIA B200 (1000W) -->
+  <g transform="translate(280, 0)">
+    <rect x="0" y="191" width="35" height="184" fill="#10b981" rx="3" />
+    <text x="17" y="183" fill="#34d399" font-size="11" text-anchor="middle" font-weight="bold">1000W</text>
+    <text x="17" y="395" fill="#f1f5f9" font-size="11" text-anchor="middle" transform="rotate(25, 17, 395)">B200</text>
+  </g>
+
+  <!-- Intel Gaudi 3 (900W) -->
+  <g transform="translate(340, 0)">
+    <rect x="0" y="210" width="35" height="165" fill="#3b82f6" rx="3" />
+    <text x="17" y="202" fill="#60a5fa" font-size="11" text-anchor="middle" font-weight="bold">900W</text>
+    <text x="17" y="395" fill="#f1f5f9" font-size="11" text-anchor="middle" transform="rotate(25, 17, 395)">Gaudi 3</text>
+  </g>
+
+  <!-- Microsoft Maia 200 (750W) -->
+  <g transform="translate(400, 0)">
+    <rect x="0" y="237" width="35" height="138" fill="#ec4899" rx="3" />
+    <text x="17" y="229" fill="#f472b6" font-size="11" text-anchor="middle" font-weight="bold">750W</text>
+    <text x="17" y="395" fill="#f1f5f9" font-size="11" text-anchor="middle" transform="rotate(25, 17, 395)">Maia 200</text>
+  </g>
+
+  <!-- AMD MI300X (750W) -->
+  <g transform="translate(460, 0)">
+    <rect x="0" y="237" width="35" height="138" fill="#ef4444" rx="3" />
+    <text x="17" y="229" fill="#f87171" font-size="11" text-anchor="middle" font-weight="bold">750W</text>
+    <text x="17" y="395" fill="#f1f5f9" font-size="11" text-anchor="middle" transform="rotate(25, 17, 395)">MI300X</text>
+  </g>
+
+  <!-- NVIDIA H100 (700W) -->
+  <g transform="translate(520, 0)">
+    <rect x="0" y="246" width="35" height="129" fill="#6ee7b7" rx="3" />
+    <text x="17" y="238" fill="#a7f3d0" font-size="11" text-anchor="middle" font-weight="bold">700W</text>
+    <text x="17" y="395" fill="#f1f5f9" font-size="11" text-anchor="middle" transform="rotate(25, 17, 395)">H100</text>
+  </g>
+
+  <!-- Huawei Ascend 910C (550W) -->
+  <g transform="translate(580, 0)">
+    <rect x="0" y="274" width="35" height="101" fill="#ea580c" rx="3" />
+    <text x="17" y="266" fill="#f97316" font-size="11" text-anchor="middle" font-weight="bold">550W</text>
+    <text x="17" y="395" fill="#f1f5f9" font-size="11" text-anchor="middle" transform="rotate(25, 17, 395)">Asc 910C</text>
+  </g>
+
+  <!-- Meta MTIA v2 (90W) -->
+  <g transform="translate(640, 0)">
+    <rect x="0" y="358" width="35" height="17" fill="#a855f7" rx="3" />
+    <text x="17" y="350" fill="#c084fc" font-size="11" text-anchor="middle" font-weight="bold">90W</text>
+    <text x="17" y="395" fill="#f1f5f9" font-size="11" text-anchor="middle" transform="rotate(25, 17, 395)">MTIA v2</text>
+  </g>
+</svg>

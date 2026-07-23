@@ -1,0 +1,14 @@
+customer_id,chip_id,customer_name,use_case,deployment_scale
+C1,H100,Microsoft,Azure AI training/inference,"Large (>100,000 GPUs)"
+C2,H100,Meta,Llama 3 training,"Large (>350,000 GPUs cluster)"
+C3,B200,Microsoft,Copilot & OpenAI GPT-5 training/serving,Large-scale (Early deployment 2025)
+C4,B200,Meta,Llama 4 training,Large-scale (Early deployment 2025)
+C5,MI300X,Microsoft,Azure Virtual Machines (ND MI300X v5),Medium (Tens of thousands)
+C6,MI300X,Meta,Llama 3 inference serving,Medium-scale deployment
+C7,G3,Dell / Supermicro,Server OEM Integration,Medium enterprise distribution
+C8,asc910b,Baidu,Wenxin Yiyan training backup,Thousands of chips
+C9,asc910b,DeepSeek,DeepSeek-V2/V3 training,Large cluster (combined domestic chips)
+C10,wse3,G42 (UAE),Condor Galaxy AI supercomputer,"9 CS-3 systems, expanding to 64"
+C11,v6e,Apple,Apple Intelligence model pre-training,Cloud TPU Pod clusters
+C12,maia200,OpenAI,Inference serving for ChatGPT,Internal Azure deployment
+C13,ai5,Tesla Fleet,FSD Autonomous Driving,Millions of vehicles (from 2027)

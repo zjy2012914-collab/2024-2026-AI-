@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="100%" height="100%" style="background-color: #0f172a; font-family: system-ui, sans-serif;">
+  <text x="450" y="40" text-anchor="middle" fill="#f8fafc" font-size="22" font-weight="bold">全球 AI 芯片半导体产业链全景图 (Global Supply Chain)</text>
+  <text x="450" y="65" text-anchor="middle" fill="#94a3b8" font-size="14">从上游IP设计到最下游云端部署的闭环生态链</text>
+
+  <!-- Column 1: IP & EDA -->
+  <g transform="translate(40, 100)">
+    <rect x="0" y="0" width="120" height="340" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5" rx="4" />
+    <text x="60" y="25" fill="#f1f5f9" font-size="13" font-weight="bold" text-anchor="middle">1. IP与EDA工具</text>
+    <line x1="15" y1="35" x2="105" y2="35" stroke="#475569" stroke-width="1" />
+    
+    <!-- Sub-items -->
+    <rect x="10" y="50" width="100" height="40" fill="#1e3a8a" rx="3" />
+    <text x="60" y="68" fill="#f1f5f9" font-size="11" text-anchor="middle" font-weight="bold">指令集 &amp; IP</text>
+    <text x="60" y="82" fill="#93c5fd" font-size="9" text-anchor="middle">ARM, Synopsys</text>
+
+    <rect x="10" y="110" width="100" height="40" fill="#1e3a8a" rx="3" />
+    <text x="60" y="128" fill="#f1f5f9" font-size="11" text-anchor="middle" font-weight="bold">EDA 软件</text>
+    <text x="60" y="142" fill="#93c5fd" font-size="9" text-anchor="middle">Synopsys, Cadence</text>
+
+    <rect x="10" y="170" width="100" height="40" fill="#1e3a8a" rx="3" />
+    <text x="60" y="188" fill="#f1f5f9" font-size="11" text-anchor="middle" font-weight="bold">连接IP</text>
+    <text x="60" y="202" fill="#93c5fd" font-size="9" text-anchor="middle">Rambus, Broadcom</text>
+  </g>
+
+  <!-- Connect line 1-2 -->
+  <line x1="160" y1="270" x2="180" y2="270" stroke="#3b82f6" stroke-width="2" />
+  <polygon points="180,267 186,270 180,273" fill="#3b82f6" />
+
+  <!-- Column 2: Memory (HBM) -->
+  <g transform="translate(186, 100)">
+    <rect x="0" y="0" width="120" height="340" fill="#1e293b" stroke="#10b981" stroke-width="1.5" rx="4" />
+    <text x="60" y="25" fill="#f1f5f9" font-size="13" font-weight="bold" text-anchor="middle">2. 高带宽存储 (HBM)</text>
+    <line x1="15" y1="35" x2="105" y2="35" stroke="#475569" stroke-width="1" />
+
+    <rect x="10" y="60" width="100" height="50" fill="#064e3b" rx="3" />
+    <text x="60" y="80" fill="#f1f5f9" font-size="11" text-anchor="middle" font-weight="bold">SK Hynix</text>
+    <text x="60" y="96" fill="#a7f3d0" font-size="10" text-anchor="middle">领头羊, 绑定Nvidia</text>
+
+    <rect x="10" y="130" width="100" height="50" fill="#064e3b" rx="3" />
+    <text x="60" y="150" fill="#f1f5f9" font-size="11" text-anchor="middle" font-weight="bold">Samsung</text>
+    <text x="60" y="166" fill="#a7f3d0" font-size="10" text-anchor="middle">2nm/3D-IC合作商</text>
+
+    <rect x="10" y="200" width="100" height="50" fill="#064e3b" rx="3" />
+    <text x="60" y="220" fill="#f1f5f9" font-size="11" text-anchor="middle" font-weight="bold">Micron</text>
+    <text x="60" y="236" fill="#a7f3d0" font-size="10" text-anchor="middle">美系HBM3e供应商</text>
+  </g>
+
+  <!-- Connect line 2-3 -->
+  <line x1="306" y1="270" x2="326" y2="270" stroke="#10b981" stroke-width="2" />
+  <polygon points="326,267 332,270 326,273" fill="#10b981" />
+
+  <!-- Column 3: Foundry & Fabrication -->
+  <g transform="translate(332, 100)">
+    <rect x="0" y="0" width="120" height="340" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5" rx="4" />
+    <text x="60" y="25" fill="#f1f5f9" font-size="13" font-weight="bold" text-anchor="middle">3. 晶圆代工与制造</text>
+    <line x1="15" y1="35" x2="105" y2="35" stroke="#475569" stroke-width="1" />
+
+    <rect x="10" y="50" width="100" height="55" fill="#78350f" rx="3" />
+    <text x="60" y="70" fill="#f1f5f9" font-size="12" text-anchor="middle" font-weight="bold">台积电 (TSMC)</text>
+    <text x="60" y="85" fill="#fde047" font-size="9" text-anchor="middle">垄断3nm/4nm/5nm</text>
+    <text x="60" y="96" fill="#fde047" font-size="9" text-anchor="middle">产能稀缺瓶颈</text>
+
+    <rect x="10" y="125" width="100" height="50" fill="#78350f" rx="3" />
+    <text x="60" y="145" fill="#f1f5f9" font-size="11" text-anchor="middle" font-weight="bold">Samsung</text>
+    <text x="60" y="161" fill="#fde047" font-size="9" text-anchor="middle">主推3nm GAA/4nm</text>
+
+    <rect x="10" y="195" width="100" height="50" fill="#78350f" rx="3" />
+    <text x="60" y="215" fill="#f1f5f9" font-size="11" text-anchor="middle" font-weight="bold">SMIC (中芯国际)</text>
+    <text x="60" y="231" fill="#fde047" font-size="9" text-anchor="middle">承载中企重构7nm</text>
+  </g>
+
+  <!-- Connect line 3-4 -->
+  <line x1="452" y1="270" x2="472" y2="270" stroke="#f59e0b" stroke-width="2" />
+  <polygon points="472,267 478,270 472,273" fill="#f59e0b" />
+
+  <!-- Column 4: Advanced Packaging -->
+  <g transform="translate(478, 100)">
+    <rect x="0" y="0" width="120" height="340" fill="#1e293b" stroke="#ea580c" stroke-width="1.5" rx="4" />
+    <text x="60" y="25" fill="#f1f5f9" font-size="13" font-weight="bold" text-anchor="middle">4. 先进封装与测试</text>
+    <line x1="15" y1="35" x2="105" y2="35" stroke="#475569" stroke-width="1" />
+
+    <rect x="10" y="60" width="100" height="45" fill="#7c2d12" rx="3" />
+    <text x="60" y="80" fill="#f1f5f9" font-size="11" text-anchor="middle" font-weight="bold">TSMC CoWoS</text>
+    <text x="60" y="94" fill="#ffedd5" font-size="9" text-anchor="middle">先进GPU核心瓶颈</text>
+
+    <rect x="10" y="125" width="100" height="45" fill="#7c2d12" rx="3" />
+    <text x="60" y="145" fill="#f1f5f9" font-size="11" text-anchor="middle" font-weight="bold">日月光 (ASE)</text>
+    <text x="60" y="159" fill="#ffedd5" font-size="9" text-anchor="middle">全球最大的封测厂</text>
+
+    <rect x="10" y="190" width="100" height="45" fill="#7c2d12" rx="3" />
+    <text x="60" y="210" fill="#f1f5f9" font-size="11" text-anchor="middle" font-weight="bold">Amkor</text>
+    <text x="60" y="224" fill="#ffedd5" font-size="9" text-anchor="middle">高端多芯片SoC测试</text>
+  </g>
+
+  <!-- Connect line 4-5 -->
+  <line x1="598" y1="270" x2="618" y2="270" stroke="#ea580c" stroke-width="2" />
+  <polygon points="618,267 624,270 618,273" fill="#ea580c" />
+
+  <!-- Column 5: Server Integration & Cloud -->
+  <g transform="translate(624, 100)">
+    <rect x="0" y="0" width="236" height="340" fill="#1e293b" stroke="#a855f7" stroke-width="1.5" rx="4" />
+    <text x="118" y="25" fill="#f1f5f9" font-size="13" font-weight="bold" text-anchor="middle">5. 模组/系统集成与云服务</text>
+    <line x1="15" y1="35" x2="221" y2="35" stroke="#475569" stroke-width="1" />
+
+    <g transform="translate(10, 50)">
+      <rect x="0" y="0" width="216" height="70" fill="#581c87" rx="3" />
+      <text x="108" y="22" fill="#f1f5f9" font-size="12" text-anchor="middle" font-weight="bold">系统与服务器 OEM/ODM</text>
+      <text x="108" y="42" fill="#f3e8ff" font-size="10" text-anchor="middle">Foxconn, Quanta (广达), Supermicro (超微),</text>
+      <text x="108" y="58" fill="#f3e8ff" font-size="10" text-anchor="middle">Inspur (浪潮), Dell, Gigabyte (技嘉)</text>
+    </g>
+
+    <g transform="translate(10, 140)">
+      <rect x="0" y="0" width="216" height="75" fill="#581c87" rx="3" />
+      <text x="108" y="22" fill="#f1f5f9" font-size="12" text-anchor="middle" font-weight="bold">云服务与模型部署 (Hyperscale Cloud)</text>
+      <text x="108" y="42" fill="#f3e8ff" font-size="10" text-anchor="middle">Microsoft Azure, Amazon AWS, Google Cloud</text>
+      <text x="108" y="56" fill="#f3e8ff" font-size="10" text-anchor="middle">Oracle Cloud, Meta Infrastructure</text>
+      <text x="108" y="68" fill="#f3e8ff" font-size="9" text-anchor="middle">国内: 阿里、腾讯、百度、华为、ByteDance</text>
+    </g>
+  </g>
+</svg>
